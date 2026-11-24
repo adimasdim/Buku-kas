@@ -882,7 +882,7 @@ html[data-theme="dark"] .wa-note{
 /* ============================================================
    API
    ============================================================ */
-const API_URL = "https://script.google.com/macros/s/XXXXX/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbxPUmf2_PheBtb3to8Hc74P-yP2K4dHpzq0z7D3mf2KDqWUMdWyiZBqJDwr_zHnbfsnZw/exec";
 async function api(action, payload = {}) {
   const url = `${API_URL}?action=${encodeURIComponent(action)}&payload=${encodeURIComponent(JSON.stringify(payload))}`;
   const res = await fetch(url);
